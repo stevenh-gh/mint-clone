@@ -10,6 +10,19 @@
         
         nav {
             background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            font-size: 12px;
+            justify-content: flex-end;
+        }
+        
+        nav button {
+            background-color: #0077c5;
+            border: 1px solid black;
+            border-radius: 10%;
+            height: 32px;
+            color: white;
+            font-size: 13.5px;
         }
         
         header {
@@ -39,7 +52,17 @@
 </head>
 
 <body>
-    <nav>nav bar</nav>
+    <nav>
+        <div>
+            <div>Already have an Intuit account?</div>
+            <div>I forgot my User ID or Password</div>
+        </div>
+        <div>
+            <button>
+                Sign In
+            </button>
+        </div>
+    </nav>
     <header>header</header>
     <main>main</main>
     <footer>
