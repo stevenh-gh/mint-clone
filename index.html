@@ -131,6 +131,38 @@
             text-align: center;
         }
         
+        .tos {
+            font-style: italic;
+            color: #757575;
+            font-size: 12px;
+            padding-top: 10px;
+            line-height: 1.5;
+        }
+        
+        a.tos {
+            color: #0077C5;
+            text-decoration: none;
+        }
+        
+        a.tos:hover {
+            text-decoration: underline;
+        }
+        
+        .captcha {
+            font-size: 10px;
+            color: #8d9096;
+            background-color: #ECEEF1;
+        }
+        
+        a.captcha {
+            text-decoration: none;
+            color: #0077C5;
+        }
+        
+        a.captcha:hover {
+            text-decoration: underline;
+        }
+        
         .legal-links li {
             display: inline-block;
         }
@@ -208,8 +240,12 @@
                 Create Account
             </button>
         </form>
-        <p>By selecting Create Account, you agree to our <a href="https://mint.intuit.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/statement/">Global Privacy Statement</a>.</p>
-        <p>Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>.</p>
+        <div class="center tos">
+            <p>By selecting Create Account, you agree to our <a class="tos" href="https://mint.intuit.com/terms">Terms</a> and have read and acknowledge our <a class="tos" href="https://www.intuit.com/privacy/statement/">Global Privacy Statement</a>.</p>
+        </div>
+        <div class="center captcha">
+            <p>Invisible reCAPTCHA by Google <a class="captcha" href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a class="captcha" href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>.</p>
+        </div>
     </main>
     <footer>
         <ul class="legal-links">
